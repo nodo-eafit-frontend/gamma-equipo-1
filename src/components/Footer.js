@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../images/footer.jpg";
+import img from "../images/footer.png";
 
 const Footer = () => {
   return (
@@ -11,8 +11,8 @@ const Footer = () => {
               class="fa-solid fa-phone"
               style={{ color: "#29b4aa", fontSize: "25px" }}
             ></i>
-            <h4>Give us a call</h4>
-            <h3 style={{ color: "#29b4aa", margin: "0 5px" }}>+1234567899</h3>
+            <h4>Llamanos</h4>
+            <h3 style={{ color: "#29b4aa", margin: "0 5px" }}>01 8000 515 900</h3>
           </div>
         </div>
         <div class="row">
@@ -22,8 +22,7 @@ const Footer = () => {
               <img src={img} alt="" />
             </div>
             <p>
-              This is Photoshop’s version of Lorem Ipsum. Proin gravida nibh vel
-              velit auctor aliquet
+             
             </p>
             <div class="social-icons">
               <ul class="list-unstyled list-group list-group-horizontal">
@@ -68,8 +67,7 @@ const Footer = () => {
                     <i data-feather="map-pin"></i>{" "}
                   </div>
                   <div>
-                    Envato Pty Ltd, 13/2 Elizabeth St Melbourne VIC 3000,
-                    Australia
+                  Carrera 49 N° 7 Sur-50
                   </div>
                 </li>
                 <li>
@@ -84,7 +82,8 @@ const Footer = () => {
                       href="tel:+1234567899"
                       style={{ color: "#29b4aa", margin: "0 5px" }}
                     >
-                      +1234567899
+                      (57) 604 2619500<p/>
+                      Whatsapp: (57) 310 8992908
                     </a>
                   </div>
                 </li>
@@ -100,7 +99,7 @@ const Footer = () => {
                       href="mailto:info@hoperaise.com"
                       style={{ color: "#29b4aa", margin: "0 5px" }}
                     >
-                      info@example.com
+                      cfilant​ropia@eafit.edu.co​
                     </a>
                   </div>
                 </li>
@@ -108,7 +107,7 @@ const Footer = () => {
                   <div>
                     <i data-feather="clock"></i>{" "}
                   </div>
-                  <div>Mon-Fri / 9:00 AM - 19:00 PM</div>
+                  <div>lunes a viernes  / 8:00 AM - 17:00 PM</div>
                 </li>
               </ul>
             </div>
@@ -137,11 +136,11 @@ const Footer = () => {
         <div class="container pos-rel">
           <div class="row text-md-start text-center">
             <div class="col-sm-12 col-md-auto copyright-text">
-              © Copyright <span class="txt-blue">Team 1</span> 2023.
+               <span class="txt-blue"></span> 
             </div>
             <div class="col-sm-12 col-md-auto ml-md-auto text-md-right text-center copyright-links">
-              <a href="#a">Terms & Condition</a> |{" "}
-              <a href="#a">Privacy Policy</a> | <a href="#a">Legal</a>
+              <a href="#a"></a> {" "}
+              <a href="#a"></a>  <a href="#a"></a>
             </div>
           </div>
         </div>

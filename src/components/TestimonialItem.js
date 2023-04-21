@@ -1,5 +1,6 @@
 import React from "react";
-import img from "../images/team_1.jpg";
+import img from "../images/team_1.png";
+
 
 const TestimonialItem = ({ content, name }) => {
   return (
@@ -12,7 +13,8 @@ const TestimonialItem = ({ content, name }) => {
         <div class="client-testimonial-icon">
           <img src={img} alt="" className="carousel-img" />
           <div class="text">
-            <div class="name">Josefin Fashkin</div>
+            <div class="name">Sebastian Vanegas Rendon</div>
+            
             <div class="post">Senior Activist</div>
           </div>
         </div>

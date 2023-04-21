@@ -7,34 +7,21 @@ import "swiper/css";
 const testimonios = [
   {
     content:
-      "Gracious is a nonproﬁt organization supported by community leaders, corporate sponsors, churches, helpless etc. and concerned citizens",
-    name: "Josefin Fashkin",
+      "Mi experiencia con la beca y sobre todo en esta Universidad ha sido maravillosa en todo aspecto de mi vida, porque gracias a los que aportaron para el povenir de mi futuro puedo cumplir esos sueños que tenia cuando estaba en el colegio y pensaba que nunca harian realidad",
+    name: "Sebastian Vanegas Rendon",
   },
   {
     content:
-      "Gracious is a nonproﬁt organization supported by community leaders, corporate sponsors, churches, helpless etc. and concerned citizens",
-    name: "Josefin Fashkin",
+      "Estudiar en EAFIT fue una de las etapas más bonita de mi vida. En cada paso, en cada tropiezo y en cada victoria ustedes siempre estuvieron ahí, Me siento profundamente orgulloso de que la universidad  apueste por los jóvenes, por abrirse a darlo todo y más por aquellos que no tienen recursos propios para estudiar, Me siento honrado de haber sido becado y espero haber cumplido las expetativas que implica estudiar bajo esta maravillosa condición.!  ",
+    name1: "sergio Danilo Gil Vélez",
   },
   {
     content:
-      "Gracious is a nonproﬁt organization supported by community leaders, corporate sponsors, churches, helpless etc. and concerned citizens",
-    name: "Josefin Fashkin",
+      "Estoy muy agradecidad con la U y con las personas que eligieron invertir en mis sueños e impactar mi vida. Esa es la mejor forma de transformar la ciudad, el pais y el mundo ",
+    name: "Maria Isabel Garcia Garcia",
   },
-  {
-    content:
-      "Gracious is a nonproﬁt organization supported by community leaders, corporate sponsors, churches, helpless etc. and concerned citizens",
-    name: "Josefin Fashkin",
-  },
-  {
-    content:
-      "Gracious is a nonproﬁt organization supported by community leaders, corporate sponsors, churches, helpless etc. and concerned citizens",
-    name: "Josefin Fashkin",
-  },
-  {
-    content:
-      "Gracious is a nonproﬁt organization supported by community leaders, corporate sponsors, churches, helpless etc. and concerned citizens",
-    name: "Josefin Fashkin",
-  },
+  
+  
 ];
 
 const Testimonials = () => {

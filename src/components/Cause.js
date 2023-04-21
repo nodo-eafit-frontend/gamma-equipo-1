@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import img1 from "../images/causes/causes_single_small_img_1.jpg";
-import img2 from "../images/causes/causes_single_small_img_2.jpg";
+import causes from "../images/causes/causes_img_1.png";
+import cause from "../images/causes/causes_img_2.jpg";
 
 const Cause = ({ title, imgURL }) => {
   const [loading, setLoading] = useState(true);
@@ -55,14 +55,14 @@ const Cause = ({ title, imgURL }) => {
 
 Datos de 20​​20
 
-Fuente: https://snies.mineducaci​​on.gov.co​​ ​y datos propios de la Universidad EAFIT.​​​¿            </p>
+Fuente: https://snies.mineducaci​​on.gov.co​​ ​y datos propios de la Universidad EAFIT.​​​           </p>
 
             <div class="row my-5">
               <div class="col-md-6">
-                <img src={causes_img_9} class="rounded" alt="" />
+                <img src={causes} class="rounded" alt="" />
               </div>
               <div class="col-md-6">
-              <img src={'equidad1'} class="rounded" alt="" />
+              <img src={cause} class="rounded" alt="" />
               </div>
             </div>
 

@@ -32,7 +32,7 @@ const Donate = () => {
         <div class="row">
           <div class="col-lg-8 col-md-12">
             <h1 class="heading-main">
-              <small>Donation</small>
+              <small>Donación</small>
               ¡Ayuda a cambiar vidas! <br/> Haz una donación hoy mismo
             </h1>
 
