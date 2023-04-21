@@ -43,17 +43,13 @@ const Cause = ({ title, imgURL }) => {
           <div class="content-wrap-single border-top">
             <p>
             <h1>Estudiantes con op​​ortunidades a través de becas y apoyos académicos</h1>
-​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​En C​olombia, más de dos millones de jóvenes ​se inscriben a una Institución de Educación Superior​​,​ pero solo el 41% ​logra matricularse.​
-
-​En Antioquia, de cada 1​0 jóvene​​s entre los 17 y 21 años, solo 5 ingresan a una Institución de Educación Superior.​
-
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​En C​olombia, más de dos millones de jóvenes ​se inscriben a una Institución de Educación Superior​​,​ pero solo el 41% ​logra matricularse.​ ​En Antioquia, de cada 1​0 jóvene​​s entre los 17 y 21 años, solo 5 ingresan a una Institución de Educación Superior.​
 ​En Medellín, de cada 100 e​​​studiantes qu​​​e culminan el grado 11, solo 48 hacen tránsito inmediato a la Educación Superior.​
-
-​Con Filantropía EAFIT, la Univ​ersidad, con el apoyo de diversos aliados, ha logrado otorgar más de 2.540 becas cada semestre.​
+​Con Filantropía EAFIT, la Univ​ersidad, con el apoyo de diversos aliados, ha logrado otorgar más de 2.540 becas cada semestre.​<br/>
 
 ​
 
-Datos de 20​​20
+Datos de 20​​20<br/>
 
 Fuente: https://snies.mineducaci​​on.gov.co​​ ​y datos propios de la Universidad EAFIT.​​​           </p>
 
