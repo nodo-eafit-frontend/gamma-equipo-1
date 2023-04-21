@@ -42,42 +42,38 @@ const Cause = ({ title, imgURL }) => {
 
           <div class="content-wrap-single border-top">
             <p>
-              On the other hand, we denounce with righteous indignation and
-              dislike men who are so beguiled and demoralized by the charms of
-              pleasure of the moment, so blinded by desire, that they cannot
-              foresee the pain and trouble that are bound to ensue and equal
-              blame belongs to those who fail in their duty through weakness of
-              will, which is the same as saying through shrinking from toil and
-              pain.
-            </p>
+            <h1>Estudiantes con op​​ortunidades a través de becas y apoyos académicos</h1>
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​En C​olombia, más de dos millones de jóvenes ​se inscriben a una Institución de Educación Superior​​,​ pero solo el 41% ​logra matricularse.​
+
+​En Antioquia, de cada 1​0 jóvene​​s entre los 17 y 21 años, solo 5 ingresan a una Institución de Educación Superior.​
+
+​En Medellín, de cada 100 e​​​studiantes qu​​​e culminan el grado 11, solo 48 hacen tránsito inmediato a la Educación Superior.​
+
+​Con Filantropía EAFIT, la Univ​ersidad, con el apoyo de diversos aliados, ha logrado otorgar más de 2.540 becas cada semestre.​
+
+​
+
+Datos de 20​​20
+
+Fuente: https://snies.mineducaci​​on.gov.co​​ ​y datos propios de la Universidad EAFIT.​​​¿            </p>
 
             <div class="row my-5">
               <div class="col-md-6">
-                <img src={img2} class="rounded" alt="" />
+                <img src={causes_img_9} class="rounded" alt="" />
               </div>
               <div class="col-md-6">
-                <img src={img1} class="rounded" alt="" />
+              <img src={'equidad1'} class="rounded" alt="" />
               </div>
             </div>
 
-            <h3>Summary</h3>
+            <h3>Conoce el Fondo de becas</h3>
             <p>
-              On the other hand, we denounce with righteous indignation and
-              dislike men who are so beguiled and demoralized by the charms of
-              pleasure of the moment, so blinded by desire, that they cannot
-              foresee the pain and trouble that are bound to ensue and equal
-              blame belongs to those who fail in their duty through weakness of
-              will, which is the same as saying through shrinking from toil and
-              pain.
+            Brind​amos acceso a la Universidad EAFIT ​a jóvenes que cuentan con un excelente desempeño académico y que no disponen de los recursos económicos para asumir el valor de la ma​trícula en la Ins​​titución.​​
             </p>
 
-            <h3>Challenge</h3>
+            
             <p>
-              Night bring years have image make all fruitful good fifth all i
-              beast unto which let she'd. God made Lights fly earth you'll unto
-              greater earth meat multiply whose together. Light very lesser
-              given he sea. Void god replenish fifth you'll place a they're they
-              under.
+              Gracias a tus aportes a nuest​​ro​ fondo de becas, lograre​mos qu​​e muchos ​m​ás estudiantes puedan acceder a una ins​​​titución de alta calidad ​que ayud​​ará a que la vida de esto​s jóvenes se transforme ​para siem​​pre ​logrando así una sociedad más equitativa.
             </p>
           </div>
 

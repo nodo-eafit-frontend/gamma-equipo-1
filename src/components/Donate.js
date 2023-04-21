@@ -33,14 +33,11 @@ const Donate = () => {
           <div class="col-lg-8 col-md-12">
             <h1 class="heading-main">
               <small>Donation</small>
-              Lorem ipsum dolor sit amet.
+              ¡Ayuda a cambiar vidas! <br/> Haz una donación hoy mismo
             </h1>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-              dignissimos repudiandae dolorem quidem eos, unde sunt fugiat
-              minima culpa cumque in repellat! Dolore eligendi suscipit, minus
-              provident cumque incidunt vitae.
+            Transforma vidas a traves de tus aportes para que alguien mas alcance sus sueños
             </p>
 
             <div class="donation-wrap">
@@ -63,8 +60,7 @@ const Donate = () => {
                 </div>
                 <div class="col-md-12">
                   <p class="text-primary">
-                    This is simple a note to the donators regarding our services
-                    and policy.
+                  Cada donación es importante: desde $1,000 hasta $100,000, ¡tu ayuda puede marcar la diferencia!
                   </p>
                   <div class="border-top mb-4"></div>
                 </div>

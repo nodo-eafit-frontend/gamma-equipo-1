@@ -432,7 +432,7 @@ a:focus {
 
 .logo-image {
   width: 120px;
-  height: 90px;
+ 
 }
 .itemP {
   display: flex;
@@ -4905,7 +4905,7 @@ footer .social-icons a:hover {
 .img-wrap2 img {
   border-radius: 10px 10px 0 0;
   width: 100%;
-  height: 500px;
+  
 }
 .raised-progress {
   padding: 0rem 1.2rem;
@@ -7374,6 +7374,18 @@ label.error {
   .top-bar-right {
     font-size: 0.8rem;
   }
+  
+  
 }
 
 /*   10. Responsive Media Queries End  */
+.btn-default{
+  float: right;
+  
+
+  }
+
+.text-primary p{
+font-size: 5px;
+}
+  
