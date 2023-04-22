@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import causes from "../images/causes/causes_img_1.png";
 import cause from "../images/causes/causes_img_2.jpg";
 
-const Cause = ({ title, imgURL }) => {
+
+
+const Cause = ({ title, imgURL, imgCause1, imgCause2  }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -53,14 +55,18 @@ Datos de 20​​20<br/>
 
 Fuente: https://snies.mineducaci​​on.gov.co​​ ​y datos propios de la Universidad EAFIT.​​​           </p>
 
-            <div class="row my-5">
-              <div class="col-md-6">
-                <img src={causes} class="rounded" alt="" />
-              </div>
-              <div class="col-md-6">
-              <img src={cause} class="rounded" alt="" />
-              </div>
-            </div>
+             
+               <div class="row my-5">
+               <div class="col-md-6">
+                 <img src={imgCause1} class="rounded" alt="" />
+               </div>
+               <div class="col-md-6">
+               <img src={imgCause2} class="rounded" alt="" />
+               </div>
+             </div>
+            
+              
+              
 
             <h3>Conoce el Fondo de becas</h3>
             <p>
