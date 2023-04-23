@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Donate = () => {
   const [loading, setLoading] = useState(true);
@@ -33,11 +34,11 @@ const Donate = () => {
           <div class="col-lg-8 col-md-12">
             <h1 class="heading-main">
               <small>Donación</small>
-              ¡Ayuda a cambiar vidas! <br/> Haz una donación hoy mismo
+              ¡Ayuda a cambiar vidas! <br /> Haz una donación hoy mismo
             </h1>
 
             <p>
-            Transforma vidas a traves de tus aportes para que alguien mas alcance sus sueños
+              Transforma vidas a traves de tus aportes para que alguien mas alcance sus sueños
             </p>
 
             <div class="donation-wrap">
@@ -54,13 +55,14 @@ const Donate = () => {
                         class="form-control"
                         id="custom"
                         placeholder="Valor a donar"
+                        required
                       />
                     </div>
                   </div>
                 </div>
                 <div class="col-md-12">
                   <p class="text-primary">
-                  Cada donación es importante: desde $1,000 hasta $100,000, ¡tu ayuda puede marcar la diferencia!
+                    Cada donación es importante: desde $1,000 hasta $100,000, ¡tu ayuda puede marcar la diferencia!
                   </p>
                   <div class="border-top mb-4"></div>
                 </div>
@@ -431,6 +433,7 @@ const Donate = () => {
                       class="form-control"
                       id="card"
                       placeholder="Numero de tarjeta"
+                      required
                     />
                   </div>
                 </div>
@@ -466,9 +469,11 @@ const Donate = () => {
                   </div>
                 </div>
                 <div class="col-md-12 mt-3">
-                  <button class="btn btn-default">
-                    <i class="fa-solid fa-heart"></i> Donar ahora
-                  </button>
+                  <Link to="/DonationComplete">
+                    <button className="btn btn-default" type="submit">
+                      <i className="fa-solid fa-heart"></i> Donar ahora
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

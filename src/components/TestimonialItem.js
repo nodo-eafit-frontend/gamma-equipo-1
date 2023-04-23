@@ -1,8 +1,8 @@
 import React from "react";
-import img from "../images/team_1.png";
 
 
-const TestimonialItem = ({ content, name }) => {
+
+const TestimonialItem = ({ content, name, avatarImg, position }) => {
   return (
     <div class="item ml">
       <div class="client-testimonial dark">
@@ -11,11 +11,11 @@ const TestimonialItem = ({ content, name }) => {
           <p>{content}</p>
         </div>
         <div class="client-testimonial-icon">
-          <img src={img} alt="" className="carousel-img" />
+          <img src={avatarImg} alt="" className="carousel-img" />
           <div class="text">
-            <div class="name">Sebastian Vanegas Rendon</div>
-            
-            <div class="post">Senior Activist</div>
+            <div class="name">{name}</div>
+
+            <div class="post">{position}</div>
           </div>
         </div>
       </div>

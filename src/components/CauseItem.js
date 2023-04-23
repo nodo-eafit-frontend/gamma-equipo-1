@@ -15,7 +15,7 @@ const CauseItem = ({ link, imgURL, title, content }) => {
           <h3>
             <Link to={"/" + link}>{title}</Link>
           </h3>
-          <p>{content}</p>
+          <p>{content.substring(0,150)}...</p>
           <div class="btn-wrap">
             <Link
               to={"/donate"}

@@ -1,11 +1,6 @@
 import React from "react";
 import CauseItem from "./CauseItem";
 
-
-const secondaryImages=[{ 
-  
-}]
-
 const causes = [
 
   {
@@ -14,10 +9,7 @@ const causes = [
       "https://www.eafit.edu.co/institucional/centro-filantropia/PublishingImages/filantropia/FotoParaMiniaturaEquidadSocial.jpg",
     title: "Equidad social e inclusión",
     content:
-
       "​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​En C​olombia, más de dos millones de jóvenes ​se inscriben a una Institución de Educación Superior​​,​ pero solo el 41% ​logra matricularse.​ ​En Antioquia, de cada 1​0 jóvene​​s entre los 17 y 21 años, solo 5 ingresan a una Institución de Educación Superior. ​En Medellín, de cada 100 e​​​studiantes qu​​​e culminan el grado 11, solo 48 hacen tránsito inmediato a la Educación Superior.​ ​Con Filantropía EAFIT, la Univ​ersidad, con el apoyo de diversos aliados, ha logrado otorgar más de 2.540 becas cada semestre",
-      img_1:"../images/causes/causes_img_1.png",
-      img_2:"../images/causes/causes_img_2.jpg",
   },
 
   {
@@ -45,7 +37,7 @@ const causes = [
       "​​​​​El voluntariado EAFIT es un puente de transformación social y cultural, que inspira a la comunidad eafitense y sus allegados a vincularse con iniciativas ​​​sociales, académicas, comunitarias, culturales y para la filantropía, ​permitiendo asumir responsabilidad y rol en la sociedad y/o al interior de la Universidad a través de la contribución eficaz de tiempo y conocimiento.​​​​​​​",
   },
 
-  
+
 ];
 
 const Causes = () => {

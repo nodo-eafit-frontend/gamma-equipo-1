@@ -22,7 +22,7 @@ const Footer = () => {
               <img src={img} alt="" />
             </div>
             <p>
-             
+
             </p>
             <div class="social-icons">
               <ul class="list-unstyled list-group list-group-horizontal">
@@ -67,7 +67,7 @@ const Footer = () => {
                     <i data-feather="map-pin"></i>{" "}
                   </div>
                   <div>
-                  Carrera 49 N° 7 Sur-50
+                    Carrera 49 N° 7 Sur-50
                   </div>
                 </li>
                 <li>
@@ -82,7 +82,7 @@ const Footer = () => {
                       href="tel:+1234567899"
                       style={{ color: "#29b4aa", margin: "0 5px" }}
                     >
-                      (57) 604 2619500<p/>
+                      (57) 604 2619500<p />
                       Whatsapp: (57) 310 8992908
                     </a>
                   </div>
@@ -99,7 +99,7 @@ const Footer = () => {
                       href="mailto:info@hoperaise.com"
                       style={{ color: "#29b4aa", margin: "0 5px" }}
                     >
-                      cfilant​ropia@eafit.edu.co​
+                      cfilant​ropia@eafit.edu.co
                     </a>
                   </div>
                 </li>
@@ -136,11 +136,16 @@ const Footer = () => {
         <div class="container pos-rel">
           <div class="row text-md-start text-center">
             <div class="col-sm-12 col-md-auto copyright-text">
-               <span class="txt-blue"></span> 
+              © Copyright
+              <span class="txt-blue"> Team 1 </span>
+              2023
             </div>
             <div class="col-sm-12 col-md-auto ml-md-auto text-md-right text-center copyright-links">
-              <a href="#a"></a> {" "}
-              <a href="#a"></a>  <a href="#a"></a>
+              <a href="#a">Terms & Condition </a>
+              |
+              <a href="#a"> Privacy Policy </a>
+              |
+              <a href="#a"> Legal</a>
             </div>
           </div>
         </div>
